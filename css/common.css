@@ -5,11 +5,9 @@ header, section, footer{
 }
 
 .gnb, .mo_gnb{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
-
-
 
 /* header end  */
 
@@ -80,7 +78,7 @@ header, section, footer{
 
 .item_txt{
     width: 100%;
-    padding: 10px 10px;
+    padding: 12px 12px;
     border-top: 1px solid #000;
     box-sizing: border-box;
 }

@@ -19,13 +19,14 @@ header{
 }
 
 .gnb{
-    width: 445px;
+    width: 370px;
+    line-height: 70px;
     display: flex;
 }
 
 .top_nav {
     position: relative;
-    padding: 23.5px 35px 23.5px 0;
+    padding-right: 20px;
 }
 
 .top_nav:hover .sub_nav{
@@ -34,9 +35,14 @@ header{
 }
 
 .top_nav:hover .sub_nav li{
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     padding: 3px;
+}
+
+.gnb_txt{
+    width: 100%;
+    height: 100%;
 }
 
 .gnb_txt::after{
@@ -87,7 +93,7 @@ header{
 }
 
 .icon{
-    width: 445px;
+    width: 370px;
     display: flex;
     justify-content: end;
 }
@@ -275,7 +281,7 @@ color: #000;
 }
 
 .sec7_hover p{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .sec7_txt_line{
@@ -285,15 +291,15 @@ color: #000;
 }
 
 .sec7_hover h2{
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: -1.5px;
 }
 
 .sec7_view_more{
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
     border: 1.5px solid #000;
     text-align: center;
     margin-top: 50px;
@@ -508,9 +514,9 @@ footer{
 
     .mo_top_nav{
         display: block;
-        line-height: 50px;
-        padding: 5px 30px;
-        border-bottom:1px solid rgba(0, 0, 0, 0.3) ;
+        line-height: 40px;
+        padding: 5px 20px;
+        border-bottom:1px solid rgba(0, 0, 0, 0.6) ;
         box-sizing: border-box;
     }
 
@@ -534,11 +540,11 @@ footer{
     }
 
     .mo_sub_nav a:hover{
-        color: #808080;
+        text-decoration: underline;
     }
 
     .mo_sub_nav_active{
-        height: 250px;
+        height: 210px;
     }
 
     .logo img{
@@ -755,11 +761,15 @@ footer{
         padding: 30px 0 0 0;
     }
 
-    .bot_fot span:nth-child(3)::after{
-        display: none;
+    .bot_fot{
+        width: 380px;
     }
-    /* footer end  */
-}
+
+    .bot_fot span:nth-child(3)::before{
+        display: none;
+    } 
+    /* footer end*/ 
+} 
 /* 900px end  */
 
 
@@ -857,12 +867,6 @@ footer{
         font-size: 28px;
     }
 
-    .sec7_view_more{
-        width: 150px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 16px;
-    }
     /* section_7 end  */
 
     .mo_banner p{
