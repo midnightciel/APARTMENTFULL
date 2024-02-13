@@ -9,21 +9,7 @@ header, section, footer{
     font-weight: 500;
 }
 
-.gnb_txt::after{
-    content: '';
-    display: block;
-    width: 0px;
-    height: 1.5px;
-    background: #000000;
-    position: absolute;
-    bottom: 20px;
-    left: -5px;
-    transition: all 0.1s ease-in,width 0.6s cubic-bezier(.19,1,.22,1);
-}
 
-.gnb_txt.on::after{
-    width: 83%;
-}
 
 /* header end  */
 
@@ -94,14 +80,15 @@ header, section, footer{
 
 .item_txt{
     width: 100%;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-top: 1px solid #000;
     box-sizing: border-box;
 }
 
 .item_txt h3{
     font-size: 16px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
+    line-height: 1.2;
 }
 
 .item_txt p{
@@ -110,7 +97,7 @@ header, section, footer{
 
 .more{
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     display: flex;
@@ -158,8 +145,11 @@ header, section, footer{
 /* 950px start */
 @media all and (max-width:950px) {
     .in_section{
-        width: 95%;
+        width: 93%;
+        padding: 100px 0;
     }
+
+    
 }
 /* 950px end */
 
@@ -184,6 +174,11 @@ header, section, footer{
 @media all and (max-width:500px) {
     .gnb, .mo_gnb{
         font-size: 16px;
+    }
+    /* header end  */
+
+    .item_txt h3, .item_txt p{
+        font-size: 14px;
     }
 }
 /* 500px end */
