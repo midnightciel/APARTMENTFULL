@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #000; display: block;}
+img{display: block; border: 0;}
+
+body{
+    font-family: 'outfit';
+}
