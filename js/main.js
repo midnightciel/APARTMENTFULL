@@ -37,7 +37,8 @@
         const navEl = document.querySelector('.mo_gnb');
     
         const clickEvent = () => {
-            navEl.classList.toggle('mo_gnb_active')
+            navEl.classList.toggle('mo_gnb_active');
+            
         }
 
         menuEl.addEventListener('click', clickEvent);

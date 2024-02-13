@@ -30,7 +30,7 @@ header{
 }
 
 .top_nav:hover .sub_nav{
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.6);
     padding-left: 20px;
 }
 
@@ -62,7 +62,8 @@ header{
 }
 
 .sub_nav a:hover{
-    color: #808080;
+    color: #5e5e5e;
+    text-decoration: underline;
 }
 
 .sub_nav{
@@ -541,6 +542,7 @@ footer{
 
     .mo_sub_nav a:hover{
         text-decoration: underline;
+        color: #5e5e5e;
     }
 
     .mo_sub_nav_active{
