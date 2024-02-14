@@ -115,9 +115,20 @@ header, section, footer{
 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
   }
+
+
+
+/* ---------------------------- media query ------------------------- */
+
+/* 1280px start */
+@media all and (max-width:1280px) {
+    .item_wrap li:first-child{
+        padding: 20px;
+    }
+}
+/* 1280px start */
 
 
 /* 1100px start */
@@ -126,15 +137,22 @@ header, section, footer{
         width: 50%;
     }
 
-    .item_wrap li:first-child{
-        padding: 20px;
-    }
-
     .item_wrap li:nth-child(2), .item_wrap li:nth-child(4){
         border-right: 0;
     }
 
+    .item_wrap li:nth-child(3){
+        border-left: 0;
+    }
+
+    .item_img img, .item_hover img{
+        height: 60vw;
+    }
+
     .item4{display: none;}
+    /* section_4 end  */
+
+    
 }
 /* 1100px end */
 
